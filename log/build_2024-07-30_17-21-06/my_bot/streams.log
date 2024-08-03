@@ -1,0 +1,68 @@
+[0.018s] Invoking command in '/home/cyril/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/cyril/dev_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/cyril/dev_ws/install/my_bot
+[1.085s] -- The C compiler identification is GNU 9.4.0
+[1.990s] -- The CXX compiler identification is GNU 9.4.0
+[2.013s] -- Check for working C compiler: /usr/bin/cc
+[2.139s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.143s] -- Detecting C compiler ABI info
+[2.269s] -- Detecting C compiler ABI info - done
+[2.287s] -- Detecting C compile features
+[2.288s] -- Detecting C compile features - done
+[2.295s] -- Check for working CXX compiler: /usr/bin/c++
+[2.408s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.410s] -- Detecting CXX compiler ABI info
+[2.529s] -- Detecting CXX compiler ABI info - done
+[2.547s] -- Detecting CXX compile features
+[2.548s] -- Detecting CXX compile features - done
+[2.556s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.622s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.623s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.921s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.076s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.120s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.126s] -- Added test 'lint_cmake' to check CMake code style
+[3.129s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.140s] -- Added test 'xmllint' to check XML markup files
+[3.146s] -- Configuring done
+[3.149s] -- Generating done
+[3.151s] -- Build files have been written to: /home/cyril/dev_ws/build/my_bot
+[3.156s] Invoked command in '/home/cyril/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/cyril/dev_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/cyril/dev_ws/install/my_bot
+[3.161s] Invoking command in '/home/cyril/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/cyril/dev_ws/build/my_bot -- -j8 -l8
+[3.206s] Invoked command in '/home/cyril/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/cyril/dev_ws/build/my_bot -- -j8 -l8
+[3.256s] Invoking command in '/home/cyril/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/cyril/dev_ws/build/my_bot
+[3.269s] -- Install configuration: ""
+[3.269s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/config
+[3.269s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/config/view_bot.rviz
+[3.270s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/config/empty.yaml
+[3.271s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/config/obstacle
+[3.271s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/config/obstacle/model.sdf
+[3.272s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/config/obstacle/model.config
+[3.272s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
+[3.273s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/config/drive_bot.rviz
+[3.274s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/description
+[3.274s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[3.275s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[3.275s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[3.276s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/description/lidar.xacro
+[3.276s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[3.277s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/launch
+[3.278s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[3.278s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[3.278s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/worlds
+[3.278s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/worlds/my_theme.world
+[3.279s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/worlds/empty.world
+[3.279s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[3.279s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[3.280s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[3.280s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[3.280s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/environment/path.sh
+[3.281s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/environment/path.dsv
+[3.281s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/local_setup.bash
+[3.281s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/local_setup.sh
+[3.281s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/local_setup.zsh
+[3.281s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/local_setup.dsv
+[3.282s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/package.dsv
+[3.282s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[3.282s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[3.283s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[3.283s] -- Installing: /home/cyril/dev_ws/install/my_bot/share/my_bot/package.xml
+[3.286s] Invoked command in '/home/cyril/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/cyril/dev_ws/build/my_bot

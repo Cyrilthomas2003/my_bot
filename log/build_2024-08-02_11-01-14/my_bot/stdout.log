@@ -1,0 +1,50 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cyril/dev_ws/build/my_bot
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/config/drive_bot.rviz
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/config/empty.yaml
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/config/my_rv.rviz
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/config/nav2_params.yaml
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/config/obstacle/model.config
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/config/obstacle/model.sdf
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/config/view_bot.rviz
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/description/lidar.xacro
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/launch/gazebo.launch.py
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/launch/mapping.launch.py
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/launch/my_main.launch.py
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/launch/navigation.launch.py
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/launch/rviz.launch.py
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/worlds/empty.world
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/worlds/my_theme.world
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/environment/path.sh
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/environment/path.dsv
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/local_setup.bash
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/local_setup.sh
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/local_setup.zsh
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/local_setup.dsv
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/package.dsv
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+-- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/package.xml

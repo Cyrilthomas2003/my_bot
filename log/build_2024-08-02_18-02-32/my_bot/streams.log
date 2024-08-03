@@ -1,0 +1,57 @@
+[0.013s] Invoking command in '/home/cyril/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/cyril/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cyril/dev_ws/install/my_bot
+[0.034s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.059s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.238s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.259s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.335s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.352s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.355s] -- Added test 'lint_cmake' to check CMake code style
+[0.357s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.368s] -- Added test 'xmllint' to check XML markup files
+[0.373s] -- Configuring done
+[0.380s] -- Generating done
+[0.381s] -- Build files have been written to: /home/cyril/dev_ws/build/my_bot
+[0.388s] Invoked command in '/home/cyril/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/cyril/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cyril/dev_ws/install/my_bot
+[0.394s] Invoking command in '/home/cyril/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/cyril/dev_ws/build/my_bot -- -j8 -l8
+[0.472s] Invoked command in '/home/cyril/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/cyril/dev_ws/build/my_bot -- -j8 -l8
+[0.511s] Invoking command in '/home/cyril/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/cyril/dev_ws/build/my_bot
+[0.520s] -- Install configuration: ""
+[0.521s] -- Execute custom install script
+[0.521s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/config/drive_bot.rviz
+[0.521s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/config/empty.yaml
+[0.522s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
+[0.522s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/config/my_rv.rviz
+[0.522s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/config/nav2_params.yaml
+[0.522s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/config/obstacle/model.config
+[0.523s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/config/obstacle/model.sdf
+[0.523s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/config/view_bot.rviz
+[0.523s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[0.523s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[0.524s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/description/lidar.xacro
+[0.524s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[0.524s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[0.525s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/launch/garv.launch.py
+[0.525s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/launch/gazebo.launch.py
+[0.525s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/launch/mapping.launch.py
+[0.525s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/launch/my_main.launch.py
+[0.526s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/launch/navigation.launch.py
+[0.526s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[0.526s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/launch/rviz.launch.py
+[0.527s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/worlds/empty.world
+[0.527s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/worlds/my_theme.world
+[0.528s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[0.528s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[0.529s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[0.529s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[0.530s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/environment/path.sh
+[0.530s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/environment/path.dsv
+[0.531s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/local_setup.bash
+[0.531s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/local_setup.sh
+[0.531s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/local_setup.zsh
+[0.532s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/local_setup.dsv
+[0.532s] -- Symlinking: /home/cyril/dev_ws/install/my_bot/share/my_bot/package.dsv
+[0.543s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[0.543s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[0.543s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[0.543s] -- Up-to-date symlink: /home/cyril/dev_ws/install/my_bot/share/my_bot/package.xml
+[0.546s] Invoked command in '/home/cyril/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/cyril/dev_ws/build/my_bot
